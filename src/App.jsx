@@ -1,7 +1,6 @@
-
 import { useState,useEffect } from "react"
 import Footer from "./components/Footer"
-import Main from "./components/main"
+import Main from "./components/Main"
 import Sidebar from "./components/Sidebar"
 function App() {
   const NASA_KEY=import.meta.env.VITE_NASA_API_KEY
